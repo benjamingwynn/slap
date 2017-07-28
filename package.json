@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "./slap.js",
-    "debug": "node-debug ./slap.js",
     "test": "spec/index.js",
     "cover": "istanbul cover spec/index.js"
   },
@@ -33,10 +32,5 @@
     "ttys": "0.0.3",
     "update-notifier": "1.0.3"
   },
-  "devDependencies": {
-    "get-random-port": "0.0.1",
-    "istanbul": "0.4.4",
-    "node-inspector": "0.12.8",
-    "tape": "4.6.3"
-  }
+  "devDependencies": {}
 }
